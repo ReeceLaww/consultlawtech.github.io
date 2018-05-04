@@ -1,1 +1,1 @@
-body{text-align:center;background-color:lightblue}body h1{font-size:7em;font-family:"Arvo"}
+body{display:grid;grid-template-columns:1fr;grid-template-rows:auto 3fr 1fr;background-color:lightblue}body .introvid{display:grid;grid-template-columns:1fr 2fr 1fr}body .introvid video{grid-column:1/-1}body .introvid h1{grid-column:2/-1}body nav{background:lightgrey}body nav #logo{max-width:100vw}
