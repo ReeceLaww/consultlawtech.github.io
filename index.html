@@ -4,6 +4,7 @@
 
   <link rel="stylesheet" href="css/style.min.css" />
   <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/animate.css" />
 </head>
 
 <body>
@@ -13,12 +14,31 @@
   </nav>
 
   <div class="introvid">
-    <h1>Welcome</h1>
+    <h1 class="floating">Welcome</h1>
     <video autoplay id="vid">
-      <source src="assets/introvideo.webm" type="video/mp4">
-
+      <source src="assets/introvideo.mp4" type="video/mp4">
     </video>
   </div>
+
+  <div class="form">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzVvTiCf6mm4tMQB-jcQuotQu5cvW1xc6dyGIDjhrPHOvORw/viewform?embedded=true"
+    height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+  </div>
+
+<!-- Footer -->
+<footer>
+  <a href="javascript:scrollFunction()">
+    <div class="container">
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+      <span class="text">Scroll down</span>
+    </div>
+  </a>
+  <!-- JS -->
+  <script src="js/script.js" type="text/javascript"></script>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+</footer>
 </body>
-<script src="js/script.js" type="text/javascript"></script>
 </html>
